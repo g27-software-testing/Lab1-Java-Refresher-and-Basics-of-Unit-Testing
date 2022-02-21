@@ -9,10 +9,10 @@ public class Account {
 	private String accountType; // "Standard" or "Saving"
 	private Date accountOpeningDate;
 	
-	public Account(String account_number, String usernameOfAccountHolder, String accountType,
+	public Account(String accountNumber, String usernameOfAccountHolder, String accountType,
 				   Date accountOpeningDate) {
 		super();
-		this.accountNumber = account_number;
+		this.accountNumber = accountNumber;
 		this.usernameOfAccountHolder = usernameOfAccountHolder;
 		this.accountType = accountType;
 		this.accountOpeningDate = accountOpeningDate;
